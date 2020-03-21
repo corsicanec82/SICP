@@ -1,5 +1,7 @@
 # SICP
 
+[![github action status](https://github.com/corsicanec82/sicp/workflows/Racket%20CI/badge.svg)](https://github.com/corsicanec82/sicp/actions)
+
 ### Requirements
 
 - Racket
@@ -11,7 +13,17 @@
   ```sh
   $ raco pkg install sicp
   ```
+- [Racket-review](https://github.com/Bogdanp/racket-review) (surface-level linter)
+  ```sh
+  $ raco pkg install review
+  ```
 - Make
+
+### Install packages
+
+```sh
+$ make install
+```
 
 ### Run tests
 
