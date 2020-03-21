@@ -18,3 +18,9 @@
 ```sh
 $ make test
 ```
+
+### Run linter
+
+```sh
+$ make lint
+```
