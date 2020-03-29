@@ -34,7 +34,7 @@
   (better-sqrt-iter 1.0 0.5 x))
 
 (check-true (< (abs (- 3 (better-sqrt 9)))
-                 (abs (- 3 (sqrt 9)))))
+               (abs (- 3 (sqrt 9)))))
 
 (check-true (< (abs (- 123456.123 (better-sqrt 15241414306.191129)))
-                 (abs (- 123456.123 (sqrt 15241414306.191129)))))
+               (abs (- 123456.123 (sqrt 15241414306.191129)))))
