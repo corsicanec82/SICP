@@ -7,6 +7,7 @@
       b
       (inc (+ (dec a) b))))
 
+; recursive process
 ; (+ 4 5)
 ; (inc (+ 3 5))
 ; (inc (inc (+ 2 5)))
@@ -23,6 +24,7 @@
       b
       (+ (dec a) (inc b))))
 
+; iterative process
 ; (+ 4 5)
 ; (+ 3 6)
 ; (+ 2 7)
